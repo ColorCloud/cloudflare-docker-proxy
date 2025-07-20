@@ -4,6 +4,10 @@ addEventListener("fetch", (event) => {
 });
 
 const dockerHub = "https://registry-1.docker.io";
+const CUSTOM_DOMAIN = "luguhu.asia";
+const MODE = "production";
+const TARGET_UPSTREAM = "https://registry-1.docker.io";
+
 
 const routes = {
   // production
